@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+.bar{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(1, 1, 71);
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.symbols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hand{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-inline: 70px;
+}
+#rock{
+    background-color: pink;
+}
+#rock:hover{
+    background-color: rgb(255, 164, 179);
+    border: 5px black solid;
+    border-radius: 50%;
+}
+#paper{
+    background-color: rgb(192, 0, 192);
+}
+#paper:hover{
+    background-color: rgb(174, 0, 174);
+    border: 5px black solid;
+    border-radius: 50%;
+}
+#scissors{
+    background-color: rgb(88, 88, 255);
+}
+#scissors:hover{
+    background-color: rgb(73, 73, 255);
+    border: 5px black solid;
+    border-radius: 50%;
+}
+i{
+    font-size: 70px;
+    font-weight: lighter;
+}
+.point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.user{
+    display: block;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.comp{
+    display: block;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.result-win{
+    height: 60px;
+    width: 300px;
+    background-color: green;
+    border: 2px black solid;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.result-loss{
+    height: 60px;
+    width: 300px;
+    background-color: red;
+    border: 2px black solid;
+    color: white;
+    padding: 5px;
+}
+.result-draw{
+    height: 60px;
+    width: 300px;
+    background-color: rgb(1, 1, 71);
+    border: 2px black solid;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.play{
+    height: 60px;
+    width: 100px;
+    background-color: rgb(1, 1, 71);
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* .dark-rock{
+    background-color: rgb(255, 164, 179);
+    border: 5px black solid;
+    border-radius: 50%;
+}
+.dark-paper{
+    background-color: rgb(174, 0, 174);
+    border: 5px black solid;
+    border-radius: 50%;
+}
+.dark-scissors{
+    background-color: rgb(73, 73, 255);
+    border: 5px black solid;
+    border-radius: 50%;
+} */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
