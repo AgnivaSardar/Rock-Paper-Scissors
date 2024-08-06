@@ -1,0 +1,91 @@
+
+body{
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.back{
+    background-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 290px;
+    border-radius: 20px;
+}
+.heading{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20px;
+    width: 290px;
+}
+.calc-space-outer{
+    background-color: rgb(33, 33, 33);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 80px;
+    width: 270px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.calc-space{
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    background-color: rgb(30, 30, 30);
+    height: 60px;
+    width: 50px;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.column :hover{
+    background-color: rgb(25, 25, 25);
+}
+.column{
+    height: 400px;
+    width: 70px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.box i{
+    height: 20px;
+    width: 20px;
+}
+[itemid="operator"]{
+    color: rgb(230, 114, 5);
+}
+[itemid="other"]{
+    color: rgb(230, 114, 5);
+}
+#box43{
+    color: white;
+    background-color: rgb(230, 114, 5);
+}
